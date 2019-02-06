@@ -1,0 +1,9 @@
+t=input()
+x=t.lower()
+y=x.replace(' ', '')
+if y=="piedra":
+  print("papel")
+elif y=="papel":
+  print("tijera")
+else:
+  print("piedra")
