@@ -1,0 +1,18 @@
+def lcm(x, y):
+ 
+   if x > y:
+       mayor = x
+   else:
+       mayor = y
+ 
+   while(True):
+       if((mayor % x == 0) and (mayor % y == 0)):
+           lcm = mayor
+           break
+       mayor += 1
+   return lcm
+
+num1 = int(input("Ingrese un numero entero \n"))
+num2 = int(input("Ingrese un numero entero \n"))
+ 
+print(lcm(num1, num2))
