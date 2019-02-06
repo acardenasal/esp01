@@ -1,0 +1,49 @@
+a = int(input('Ingrese un lado: \n'))
+b = int(input('Ingrese un lado: \n'))
+c = int(input('Ingrese un lado: \n'))
+if a==b and b==c:
+    print('Equilatero')
+if a!=b and a!=c and b!=c:
+    print('Escaleno')
+if a==b and b!=c:
+    print('Isosceles')
+    h = ((a**2)-((c/2)**2))**(1/2)
+    g = c*h/2
+    d = int(g)
+    print(round(g,1))
+    if d==g:
+        j = d**2
+        print(j)
+    else:
+        if g>20:
+            print('Es mayor')
+        else:
+            print('Es menor')
+if b==c and a!=c:
+    print('Isosceles')
+    h = ((c**2)-((a/2)**2))**(1/2)
+    g = a*h/2
+    d = int(g)
+    print(round(g,1))
+    if d==g:
+        j = d**2
+        print(j)
+    else:
+        if g>20:
+            print('Es mayor')
+        else:
+            print('Es menor')
+if c==a and b!=a:
+    print('Isosceles')
+    h = ((a**2)-((b/2)**2))**(1/2)
+    g = b*h/2
+    d = int(g)
+    print(round(g,1))
+    if d==g:
+        j = d**2
+        print(j)
+    else:
+        if g>20:
+            print('Es mayor')
+        else:
+            print('Es menor')
