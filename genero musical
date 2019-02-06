@@ -1,0 +1,18 @@
+genero=input("Ingrese un genero: \n")
+x=input("Ingrese nuevo o antiguo (nuevo-antiguo)\n")
+
+if genero=="rock":
+  if x=="antiguo":
+    print("Angie")
+  elif x=="nuevo":
+    print("Believer")
+elif genero=="reggaeton":
+  if x=="antiguo":
+    print("Martes de galeria")
+  elif x=="nuevo":
+    print("Ambiente")
+elif genero=="metal":
+  if x=="antiguo":
+    print("One")
+  elif x=="nuevo":
+    print("Edge of the blade")
