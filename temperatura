@@ -1,0 +1,15 @@
+temperatura=int(input("Ingrese una temperatura: \n"))
+
+if temperatura>27:
+    print("Hace calor")
+    
+elif (temperatura>20 and temperatura<26):
+    clima=input("Ingrese el clima actual: \n")
+    if clima=="sol":
+      print("Usar ropa fresca")
+    
+    elif clima=="nubes":
+      print("Puede llover")
+    
+else:
+    print("Que frio")
