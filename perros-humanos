@@ -1,0 +1,9 @@
+humanos = int(input("Ingrese un numero entero: \n"))
+if humanos>0 and humanos<=2:
+    a = humanos*10.5
+    print(round(a,1))
+elif humanos>2:
+    b = 13.0+(humanos*4)
+    print(round(b,1))
+else:
+    print("Error")
