@@ -1,0 +1,22 @@
+
+
+
+nota=float(input("Ingrese una nota: \n"))
+if (0.0<=nota<1.5):
+    diferencia=3-nota
+    print(round(diferencia, 2))
+    print("Deficiente")
+elif (1.5<=nota<3.0):
+    diferencia=3-nota
+    print(round(diferencia, 2))
+    print("Insuficiente")
+elif (3.0<=nota<4.0):
+    print("Aceptable")
+elif (4.0<=nota<5.0):
+    print("Sobresaliente")
+elif (nota==5.0):
+    print("Excelente")
+    
+else:
+    print("No es una nota valida")
+    
