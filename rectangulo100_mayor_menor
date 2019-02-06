@@ -1,0 +1,14 @@
+l1=int(input("Ingrese un lado: \n"))
+l2=int(input("Ingrese un lado: \n"))
+l3=int(input("Ingrese un lado: \n"))
+l4=int(input("Ingrese un lado: \n"))
+
+if(l1==l2==l3==l4):
+    area=l1*l3
+    print(area)
+    if(area>100):
+        print("Es mayor")
+    else:
+        print("Es menor")
+else:
+    print("No es cuadrado")
